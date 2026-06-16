@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "sodium-timer-fix",
+  "version": "${version}",
+  "name": "Sodium Timer Fix",
+  "description": "Fixes GlTimerQuery crash on Android/Mali GPU",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    {
+      "config": "sodium-timer-fix.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21.11"
+  }
+}
